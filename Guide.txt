@@ -1,0 +1,49 @@
+Jack Dierks
+Data Cleaning and Analysis Using Pandas
+
+Here is a quick guide to my project in case you would like to jump to certain skills or sections
+
+    The dataset I will be using for this project consists of used car sales and any pertinent information
+    that might influence the car's sale price
+
+    The variables: ['name', 'year', 'selling_price', 'km_driven', 'fuel', 'seller_type', 'transmission', 'owner',
+    'mileage', 'engine', 'max_power', 'torque', 'seats'],
+
+    Link to dataset: https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho
+
+File 1: 'Dirtying' the Dataset--------------------------------------------------------------------------------
+
+    In this file I would like to create artificial problems that one might come across while importing and cleaning
+    data, since this dataset is 'tidy' and without problem
+
+    -Goal 1: Create a problem where a column's values are stored inside multiple columns, instead of one neat column
+
+    -Goal 2: Create a problem where 2 variables are stored into one column
+
+    -Goal 3: Create a problem where a column is recorded inconsistently
+
+    -Goal 4: Split the dataset into 2 csv files
+
+File 2: 'Cleaning' the Dataset--------------------------------------------------------------------------------
+
+    In this file I would like to emulate a rudimentary data cleaning process that solves the problems I created, then
+    prepares the data for analysis
+
+    -Goal 1: Merge the two csv files
+
+    -Goal 2: Fix the problem where multiple column headers are values, not variables
+
+    -Goal 3: Fix the problem where 2 variables are stored into one column
+
+    -Goal 4: Fix the problem where a column is recorded inconsistently
+
+    -Goal 5: Perform various data manipulation techniques, such as applying functions, filtering, sorting, etc.
+
+File 3: Analysis----------------------------------------------------------------------------------------------
+
+In this file I would like to ask questions about this dataset and see if we can predict the car's sale price
+
+-Question 1: What is the relationship, if any, between the car's sale price and its mileage?
+    - How does this relationship change with year?
+    - How does this relationship change with the number of owners?
+    - How does this relationship change with a different seller type?
